@@ -1,0 +1,40 @@
+
+s	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ÔŒÃûÿÿÿÿ8¦ƒÿæ.
+Y	java:S125"<This block of commented-out lines of code should be removed.(Ãç€8¦ƒÿæ.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ı™øøÿÿÿÿ8¦ƒÿæ.
+Z	java:S106_"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8¦ƒÿæ.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8¦ƒÿæ.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(‡ÓÈşşÿÿÿÿ8¦ƒÿæ.
+[	java:S106€"9Replace this use of System.out or System.err by a logger.(‡ÓÈşşÿÿÿÿ8¦ƒÿæ.
+]	java:S125-"<This block of commented-out lines of code should be removed.(¿©µ¤øÿÿÿÿ8¦ƒÿæ.
+u
+java:S1192="SDefine a constant instead of duplicating this literal "Error al consultar" 4 times.(³Öóêÿÿÿÿÿ8¦ƒÿæ.
+e
+java:S2095Ü"GUse try-with-resources or close this "Statement" in a "finally" clause.(ô¢›Ú8¦ƒÿæ.
+‰
+java:S1192ƒ"fDefine a constant instead of duplicating this literal "rundll32 url.dll,FileProtocolHandler " 5 times.(««ê°úÿÿÿÿ8¦ƒÿæ.
+Y	java:S125ß"<This block of commented-out lines of code should be removed.(Ãç€8¦ƒÿæ.
+i
+java:S1192="GDefine a constant instead of duplicating this literal "Error" 10 times.(³Öóêÿÿÿÿÿ8¦ƒÿæ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ı™øøÿÿÿÿ8¦ƒÿæ.
+e
+java:S2095¯"GUse try-with-resources or close this "Statement" in a "finally" clause.(ô¢›Ú8¦ƒÿæ.
+p	java:S100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üşåøøÿÿÿÿ8¦ƒÿæ.
+l
+java:S1192/"JDefine a constant instead of duplicating this literal "Fecha_fin" 4 times.(Ûï–ùÿÿÿÿ8¦ƒÿæ.
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8¦ƒÿæ.
+[	java:S106Ï"9Replace this use of System.out or System.err by a logger.(ı™øøÿÿÿÿ8¦ƒÿæ.
+[	java:S106é"9Replace this use of System.out or System.err by a logger.(ı™øøÿÿÿÿ8¦ƒÿæ.
+Y	java:S125ª"<This block of commented-out lines of code should be removed.(Ãç€8¦ƒÿæ.
+[	java:S106ñ"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8¦ƒÿæ.
+p	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÈ€Ûÿÿÿÿÿ8¦ƒÿæ.
+d
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(ô¢›Ú8¦ƒÿæ.
+Y	java:S125Ä"<This block of commented-out lines of code should be removed.(Ãç€8¦ƒÿæ.
+[	java:S106µ"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8¦ƒÿæ.
+d
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ô¢›Ú8¦ƒÿæ.
+[	java:S106Ê"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8¦ƒÿæ.
+Y	java:S125÷"<This block of commented-out lines of code should be removed.(Ãç€8¦ƒÿæ.
+[	java:S106•"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8¦ƒÿæ.

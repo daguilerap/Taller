@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.15.0.final using JasperReports Library version 6.15.0-dd49bfb94918336b8321d5507193f0169ead4e95  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reparaciones" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8e15d519-eab3-497d-b483-a5c1caac3ee0">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="trabajador.xml"/>
+	<style name="Title" fontName="Arial" fontSize="26" isBold="true"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<queryString language="SQL">
+		<![CDATA[select * from reparacion]]>
+	</queryString>
+	<field name="Id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Id"/>
+		<property name="com.jaspersoft.studio.field.label" value="Id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_trab" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_trab"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_trab"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo_rep" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="tipo_rep"/>
+		<property name="com.jaspersoft.studio.field.label" value="tipo_rep"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Descripcion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Descripcion"/>
+		<property name="com.jaspersoft.studio.field.label" value="Descripcion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Horas" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="Horas"/>
+		<property name="com.jaspersoft.studio.field.label" value="Horas"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Precio" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="Precio"/>
+		<property name="com.jaspersoft.studio.field.label" value="Precio"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Fecha_ini" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="Fecha_ini"/>
+		<property name="com.jaspersoft.studio.field.label" value="Fecha_ini"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Fecha_fin" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="Fecha_fin"/>
+		<property name="com.jaspersoft.studio.field.label" value="Fecha_fin"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Precio_tot" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="Precio_tot"/>
+		<property name="com.jaspersoft.studio.field.label" value="Precio_tot"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="reparacion"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{Id}]]></groupExpression>
+		<groupHeader>
+			<band height="68">
+				<textField>
+					<reportElement style="SubTitle" x="47" y="22" width="70" height="24" forecolor="#CC0000" uuid="d68ccb36-41b2-4e35-86c2-dc324562ca08"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{Id}]]></textFieldExpression>
+				</textField>
+				<rectangle>
+					<reportElement mode="Opaque" x="0" y="13" width="36" height="24" forecolor="#CCCCCC" backcolor="#CCCCCC" uuid="b9a66a94-77af-4a13-8b04-f7bca7e60ad1"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="313" y="33" width="57" height="30" uuid="4b497ad9-8111-44fc-9955-e07db7bb9031"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle"/>
+					<text><![CDATA[Precio material]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="400" y="0" width="100" height="30" uuid="5d679c44-0c3f-43ee-97a9-962f344e787e"/>
+					<text><![CDATA[Precio total]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="494" y="0" width="79" height="30" uuid="2add2658-eb31-47ae-bacc-a71e5f0c0fd3"/>
+					<textFieldExpression><![CDATA[$F{Precio_tot}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="232" y="35" width="57" height="30" uuid="916e30a6-262a-4185-9984-a7f3804be27d"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle"/>
+					<text><![CDATA[Horas]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="550" y="0" width="25" height="30" uuid="07038376-619d-4020-aa8f-1b3f103b3cf5"/>
+					<text><![CDATA[€]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="40" y="-1" width="100" height="30" uuid="a5f1795d-96c7-4784-88bc-b9e44cfde1ba"/>
+					<textElement>
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[ID rep]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="400" y="33" width="57" height="30" uuid="724fd3ab-7363-4608-9c76-116ee263ae48"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<text><![CDATA[F. inicio]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="490" y="34" width="57" height="30" uuid="ffcb86ae-bc32-49e5-9480-a794da462a46"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<text><![CDATA[F.Fin]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<group name="Group2">
+		<groupExpression><![CDATA[$F{id_trab}]]></groupExpression>
+		<groupHeader>
+			<band height="80">
+				<textField>
+					<reportElement style="SubTitle" x="0" y="13" width="83" height="20" uuid="2257c382-adc1-4127-b805-a1126228d77d"/>
+					<textElement>
+						<font size="16" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{id_trab}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="63" y="9" width="81" height="30" uuid="237d765b-7cac-4c00-b2b2-5bd69c649979"/>
+					<textFieldExpression><![CDATA[$F{tipo_rep}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="150" y="9" width="79" height="30" uuid="f5be3f52-9b17-4494-bbc3-409e95170c3e"/>
+					<textFieldExpression><![CDATA[$F{Descripcion}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="232" y="9" width="79" height="30" uuid="4e402ea6-4813-4da0-9539-fe39de1a1541"/>
+					<textFieldExpression><![CDATA[$F{Horas}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="313" y="9" width="79" height="30" uuid="42b660e5-2dec-4970-996c-100b117403d0"/>
+					<textFieldExpression><![CDATA[$F{Precio}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="401" y="9" width="79" height="30" uuid="81b80904-9aae-49b4-8f1b-03357f1efadb"/>
+					<textFieldExpression><![CDATA[$F{Fecha_ini}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="480" y="9" width="79" height="30" uuid="6440e980-f4e5-48c3-9d1a-85dda51914fe"/>
+					<textFieldExpression><![CDATA[$F{Fecha_fin}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="360" y="9" width="100" height="30" uuid="9cc5b521-f7be-42ed-a5df-67fcc2e42e34"/>
+					<text><![CDATA[€]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="-11" y="-12" width="100" height="30" uuid="ee07f889-ccea-4557-be12-e07d79cbf95f"/>
+					<textElement>
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[ID trab]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="tipo_rep">
+		<groupExpression><![CDATA[$F{tipo_rep}]]></groupExpression>
+	</group>
+	<group name="Descripcion">
+		<groupExpression><![CDATA[$F{Descripcion}]]></groupExpression>
+	</group>
+	<group name="Horas">
+		<groupExpression><![CDATA[$F{Horas}]]></groupExpression>
+	</group>
+	<group name="Precio">
+		<groupExpression><![CDATA[$F{Precio}]]></groupExpression>
+	</group>
+	<group name="Fecha_ini">
+		<groupExpression><![CDATA[$F{Fecha_ini}]]></groupExpression>
+	</group>
+	<group name="Fecha_fin">
+		<groupExpression><![CDATA[$F{Fecha_fin}]]></groupExpression>
+	</group>
+	<group name="Precio_tot">
+		<groupExpression><![CDATA[$F{Precio_tot}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<image>
+				<reportElement x="275" y="0" width="300" height="64" uuid="ea5ad761-92e5-4024-9d51-efba4363bb54"/>
+				<imageExpression><![CDATA["leaf_banner_red.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement style="Title" x="0" y="13" width="263" height="33" uuid="91f5fe7f-a65f-46a3-81ae-30f2d82c45a2"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Reparaciones]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="35" width="555" height="1" uuid="2c4ebb21-8745-45a1-a9ad-477acaac72cb"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="38" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="555" height="1" uuid="ffde0804-90e8-496b-86fb-ee363619f187"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1" uuid="30093aa1-3dd7-4eea-9cc9-e183637af8f4"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement style="Column header" x="433" y="0" width="80" height="20" uuid="c9e9a989-76ae-4c92-a08c-dba3c3185f04"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement style="Column header" x="513" y="0" width="40" height="20" uuid="736cac2d-8f9a-48bb-b4e7-09302ce0e313"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement style="Column header" x="0" y="0" width="197" height="20" uuid="c49bc611-71b3-4860-8112-76288860b48d"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,16 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÁšŒúÿÿÿÿ8´°œÛæ.
+o	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş»ÅËıÿÿÿÿ8ò‚¨Ûæ.
+m	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïæçç8ò‚¨Ûæ.
+i	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸˜ÑJ8ò‚¨Ûæ.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÁšŒúÿÿÿÿ
+m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞŠß8ò‚¨Ûæ.
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
+O
+java:S1172"-Remove this unused method parameter "id_tra".(¿ÁšŒúÿÿÿÿ8€¿šÛæ.
+j	java:S116"URename this field "precio_tot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôŸË
+m	java:S116"QRename this field "id_tra" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªéüé8‡™Ûæ.
+j	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞŠß8ò‚¨Ûæ.
+b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(¿ÁšŒúÿÿÿÿ8€¿šÛæ.
+j	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïæçç8ò‚¨Ûæ.

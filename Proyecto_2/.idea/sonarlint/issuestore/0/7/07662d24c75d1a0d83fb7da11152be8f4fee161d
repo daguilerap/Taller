@@ -1,0 +1,191 @@
+
+z
+java:S1450Š"WRemove the "jLabel13" field and declare it as a local variable in the relevant methods.(ÑİĞİıÿÿÿÿ8ùï÷şæ.
+V
+java:S1197¦"8Move the array designator from the variable to the type.(¼ìá…8ùï÷şæ.
+”
+java:S1130Å"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(èùƒÁÿÿÿÿÿ8ùï÷şæ.
+M
+java:S1172Ä"*Remove this unused method parameter "evt".(¬š¹¯ıÿÿÿÿ8ùï÷şæ.
+v
+java:S1450ó"XRemove the "consultar" field and declare it as a local variable in the relevant methods.(ƒĞÏà8ùï÷şæ.
+v
+java:S1450ô"XRemove the "consultra" field and declare it as a local variable in the relevant methods.(¯Ó—Ø8ùï÷şæ.
+x
+java:S1450û"URemove the "finRep" field and declare it as a local variable in the relevant methods.( ·¶×ûÿÿÿÿ8ùï÷şæ.
+z
+java:S1450¦"WRemove the "reporte4" field and declare it as a local variable in the relevant methods.(ŒÑÈêùÿÿÿÿ8ùï÷şæ.
+q	java:S116ñ"TRename this field "PrecioTot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŞ¥Â8ùï÷şæ.
+z
+java:S1450”"WRemove the "jLabel22" field and declare it as a local variable in the relevant methods.(šíŒÒúÿÿÿÿ8ùï÷şæ.
+x
+java:S1450‚"URemove the "insert" field and declare it as a local variable in the relevant methods.(Ç‰“õùÿÿÿÿ8ùï÷şæ.
+z
+java:S1450‹"WRemove the "jLabel14" field and declare it as a local variable in the relevant methods.(ÖóœÍıÿÿÿÿ8ùï÷şæ.
+ƒ
+java:S1450¨"`Remove the "spinerffinreporte" field and declare it as a local variable in the relevant methods.(‚Î¨íûÿÿÿÿ8ùï÷şæ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØÊô³üÿÿÿÿ8ùï÷şæ.
+y
+java:S1450†"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ8ùï÷şæ.
+M
+java:S1172İ"*Remove this unused method parameter "evt".(©Í¡ûıÿÿÿÿ8ùï÷şæ.
+P
+java:S1481Æ"-Remove this unused "fechafin" local variable.(¸·æµıÿÿÿÿ8ùï÷şæ.
+X
+java:S2209ï"5Change this instance-reference to a static reference.(×á¤àùÿÿÿÿ8ùï÷şæ.
+d
+java:S1192İ"FDefine a constant instead of duplicating this literal "Error" 6 times.(»ÕÁ8ùï÷şæ.
+[
+java:S1197Î"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ùï÷şæ.
+F	java:S108æ")Either remove or fill this block of code.(å¥‡8ùï÷şæ.
+p	java:S116ğ"SRename this field "Apellido" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†òôÛ8ùï÷şæ.
+i
+java:S1192È"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 4 times.(²ÛÓ€8ùï÷şæ.
+y
+java:S1450›"VRemove the "jLabel9" field and declare it as a local variable in the relevant methods.(Ì’óĞşÿÿÿÿ8ùï÷şæ.
+M
+java:S1172Å"*Remove this unused method parameter "evt".(èùƒÁÿÿÿÿÿ8ùï÷şæ.
+u
+java:S1450¥"WRemove the "reporte3" field and declare it as a local variable in the relevant methods.(áÍ–Å8ùï÷şæ.
+V
+java:S1197—"8Move the array designator from the variable to the type.(èÂŠ¬8ùï÷şæ.
+M
+java:S1172¢"*Remove this unused method parameter "evt".(ÀŸ‰Æıÿÿÿÿ8ùï÷şæ.
+i	java:S116"MRename this field "FF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œº™Í8ùï÷şæ.
+z
+java:S1450ƒ"WRemove the "insertra" field and declare it as a local variable in the relevant methods.(¥Í…«ÿÿÿÿÿ8ùï÷şæ.
+z
+java:S1450’"WRemove the "jLabel20" field and declare it as a local variable in the relevant methods.(ëƒß›úÿÿÿÿ8ùï÷şæ.
+[
+java:S1197˜"8Move the array designator from the variable to the type.(Ò´ßıÿÿÿÿ8ùï÷şæ.
+h
+java:S1192Ê"JDefine a constant instead of duplicating this literal "RevisiÃ³n" 4 times.(Á¾ŞÛ8“•œ€ç.
+z
+java:S1450ˆ"WRemove the "jLabel11" field and declare it as a local variable in the relevant methods.(‰Ó‚©øÿÿÿÿ8ùï÷şæ.
+v
+java:S1450 "XRemove the "modifitra" field and declare it as a local variable in the relevant methods.(³åšÎ8ùï÷şæ.
+M
+java:S1172×"*Remove this unused method parameter "evt".(ôÊ×ÿÿÿÿÿ8ùï÷şæ.
+t
+java:S1450–"VRemove the "jLabel4" field and declare it as a local variable in the relevant methods.(«¢•ã8ùï÷şæ.
+z
+java:S1450‡"WRemove the "jLabel10" field and declare it as a local variable in the relevant methods.(¼õò†şÿÿÿÿ8ùï÷şæ.
+H
+java:S1172´"*Remove this unused method parameter "evt".(¨¨Úë8ùï÷şæ.
+H
+java:S1172å"*Remove this unused method parameter "evt".(”İˆŠ8ùï÷şæ.
+U
+java:S1135Ø"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ùï÷şæ.
+X
+java:S2209™"5Change this instance-reference to a static reference.(•‚ö¿üÿÿÿÿ8ùï÷şæ.
+[
+java:S1197¼"8Move the array designator from the variable to the type.(¦°ß«üÿÿÿÿ8ùï÷şæ.
+s	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦°ß«üÿÿÿÿ8ùï÷şæ.
+z
+java:S1450Ÿ"WRemove the "modifica" field and declare it as a local variable in the relevant methods.(Éÿ¬ƒúÿÿÿÿ8ùï÷şæ.
+z
+java:S1450¤"WRemove the "reporte2" field and declare it as a local variable in the relevant methods.(ú‘ÓÇıÿÿÿÿ8ùï÷şæ.
+u
+java:S1450"WRemove the "jLabel17" field and declare it as a local variable in the relevant methods.(„Ç›Ä8ùï÷şæ.
+V	java:S106ı"9Replace this use of System.out or System.err by a logger.(¤¨ÕÌ8ùï÷şæ.
+|
+java:S1450ù"YRemove the "eliminatra" field and declare it as a local variable in the relevant methods.(±°Üœùÿÿÿÿ8ùï÷şæ.
+G
+java:S1172ë"*Remove this unused method parameter "evt".(ğÔu8ùï÷şæ.
+z
+java:S1450ò"\Remove the "borracasillas" field and declare it as a local variable in the relevant methods.(‰ÎÕ“8ùï÷şæ.
+[
+java:S1197‹"8Move the array designator from the variable to the type.(ûœõšüÿÿÿÿ8ùï÷şæ.
+t
+java:S1450§"WRemove the "reporte5" field and declare it as a local variable in the relevant methods.(øŒ™N8ùï÷şæ.
+Y	java:S125¸"<This block of commented-out lines of code should be removed.(¨¸ËÎ8ùï÷şæ.
+H
+java:S1172õ"*Remove this unused method parameter "evt".(Ê¨œÒ8ùï÷şæ.
+H
+java:S1172å"*Remove this unused method parameter "evt".(Ûóã×8ùï÷şæ.
+]	java:S110"<This class has 6 parents which is greater than 5 authorized.(ØÊô³üÿÿÿÿ8ùï÷şæ.
+X
+java:S2209¤"5Change this instance-reference to a static reference.(¯Ô·Áøÿÿÿÿ8ùï÷şæ.
+z
+java:S1450Œ"WRemove the "jLabel15" field and declare it as a local variable in the relevant methods.(³şâçøÿÿÿÿ8ùï÷şæ.
+t
+java:S1450š"VRemove the "jLabel8" field and declare it as a local variable in the relevant methods.(å»«¢8ùï÷şæ.
+M
+java:S1172‚"*Remove this unused method parameter "evt".(‰ûÖıÿÿÿÿ8ùï÷şæ.
+H
+java:S1172ğ"*Remove this unused method parameter "evt".(ÁÛ£›8ùï÷şæ.
+z
+java:S1450"WRemove the "jLabel19" field and declare it as a local variable in the relevant methods.(Şù’±ıÿÿÿÿ8ùï÷şæ.
+n	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ìá…8ùï÷şæ.
+^	java:S125á"<This block of commented-out lines of code should be removed.(š€À€ùÿÿÿÿ8ùï÷şæ.
+t
+java:S1450"WRemove the "jLabel18" field and declare it as a local variable in the relevant methods.(†«=8ùï÷şæ.
+V
+java:S1854‡"8Remove this useless assignment to local variable "repa".(ëÍ–8ùï÷şæ.
+S
+java:S2209ß"5Change this instance-reference to a static reference.(‹“Ì 8ùï÷şæ.
+M
+java:S1172ì"*Remove this unused method parameter "evt".(Á…×şÿÿÿÿ8ùï÷şæ.
+H
+java:S1172ú"*Remove this unused method parameter "evt".(ñışâ8ùï÷şæ.
+i
+java:S1192½"KDefine a constant instead of duplicating this literal "dd-MM-yyyy" 5 times.(¹›È8“•œ€ç.
+n
+java:S1192Ê"PDefine a constant instead of duplicating this literal "Chapa y pintura" 4 times.(Á¾ŞÛ8“•œ€ç.
+h
+java:S1192Ê"JDefine a constant instead of duplicating this literal "MecÃ¡nica" 4 times.(Á¾ŞÛ8“•œ€ç.
+X
+java:S2209º"5Change this instance-reference to a static reference.(ŠÁÀøÿÿÿÿ8ùï÷şæ.
+Q
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8ùï÷şæ.
+X
+java:S2209§"5Change this instance-reference to a static reference.(…ôÍåúÿÿÿÿ8ùï÷şæ.
+V	java:S106Ô"9Replace this use of System.out or System.err by a logger.(¤¨ÕÌ8ùï÷şæ.
+z
+java:S1450"WRemove the "jLabel16" field and declare it as a local variable in the relevant methods.(š¼ª¯üÿÿÿÿ8ùï÷şæ.
+y
+java:S1450‘"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ8ùï÷şæ.
+z
+java:S1450“"WRemove the "jLabel21" field and declare it as a local variable in the relevant methods.(Üœäÿûÿÿÿÿ8ùï÷şæ.
+u
+java:S1450‰"WRemove the "jLabel12" field and declare it as a local variable in the relevant methods.(¶“¡8ùï÷şæ.
+c
+java:S2147ß"ECombine this catch with the one at line 987, which has the same body.(ã€ 8ùï÷şæ.
+z
+java:S1450£"WRemove the "reporte1" field and declare it as a local variable in the relevant methods.(Ø×ƒ„ÿÿÿÿÿ8ùï÷şæ.
+M
+java:S1172“"*Remove this unused method parameter "evt".(ÚÏ°Éıÿÿÿÿ8ùï÷şæ.
+y
+java:S1450•"VRemove the "jLabel3" field and declare it as a local variable in the relevant methods.(Îä€øÿÿÿÿ8ùï÷şæ.
+c
+java:S2147İ"ECombine this catch with the one at line 987, which has the same body.(¨¦Š½8ùï÷şæ.
+M
+java:S1172º"*Remove this unused method parameter "evt".(¿ÛÂùúÿÿÿÿ8ùï÷şæ.
+z
+java:S1450„"WRemove the "jButton3" field and declare it as a local variable in the relevant methods.(ĞäğËıÿÿÿÿ8ùï÷şæ.
+†
+java:S4144º"cUpdate this method so that its implementation is not identical to "precioStateChanged" on line 613.(¿ÛÂùúÿÿÿÿ8ùï÷şæ.
+H
+java:S1172Û"*Remove this unused method parameter "evt".(÷ÛØ÷8ùï÷şæ.
+b
+java:S2147á"ECombine this catch with the one at line 987, which has the same body.(ñÎ¯%8ùï÷şæ.
+y
+java:S1450˜"VRemove the "jLabel6" field and declare it as a local variable in the relevant methods.(¸ôÂøÿÿÿÿ8ùï÷şæ.
+X
+java:S2209ˆ"5Change this instance-reference to a static reference.(Ûò ­üÿÿÿÿ8ùï÷şæ.
+G
+java:S1172—"*Remove this unused method parameter "evt".(Š–ÿG8ùï÷şæ.
+S
+java:S2209È"5Change this instance-reference to a static reference.(¼…÷È8ùï÷şæ.
+j
+java:S1192ì"GDefine a constant instead of duplicating this literal "Tahoma" 3 times.(¬ÖÊçıÿÿÿÿ8“•œ€ç.
+R
+java:S1128"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8ùï÷şæ.
+t
+java:S1450™"VRemove the "jLabel7" field and declare it as a local variable in the relevant methods.(×ê˜Ÿ8ùï÷şæ.
+H
+java:S1172š"*Remove this unused method parameter "evt".(Ñ°Ê”8ùï÷şæ.
+[
+java:S1197Œ"8Move the array designator from the variable to the type.(Ú·ÊËúÿÿÿÿ8ùï÷şæ.
+t
+java:S1450—"VRemove the "jLabel5" field and declare it as a local variable in the relevant methods.(ó Ù®8ùï÷şæ.

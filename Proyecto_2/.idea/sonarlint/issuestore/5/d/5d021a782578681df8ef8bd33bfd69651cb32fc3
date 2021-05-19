@@ -1,0 +1,15 @@
+
+4
+java:S1128"Remove this duplicated import.(¥ËôÖ
+D
+java:S2115 ")Add password protection to this database.(Äğ…Çüÿÿÿÿ
+Z
+java:S2147("DCombine this catch with the one at line 38, which has the same body.(ıàÑÎ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ÍÔÀÏÿÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+Z
+java:S2147*"DCombine this catch with the one at line 38, which has the same body.(”ı¾
+M
+java:S2589""7Remove this expression which always evaluates to "true"(¡ææú
